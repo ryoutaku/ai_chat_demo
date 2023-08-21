@@ -4,3 +4,4 @@ llama_index
 llama-cpp-python
 pypdf
 sentence_transformers
+dotenv
