@@ -34,4 +34,4 @@ if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
     response = query_engine.query(prompt)
     st.session_state.messages.append({"role": "assistant", "content": response.response})
-    st.chat_message("assistant").write(msg["content"])
+    st.chat_message("assistant").write(response.response)
