@@ -19,8 +19,9 @@ query_engine = index.as_query_engine()
 with st.sidebar:
     "[株式会社マネーフォワード-決算説明資料](https://corp.moneyforward.com/ir/library/presentation/)"
     "【質問例】"
+    "マネーフォワードの法人向けサービスは何があるか。"
     "法人向けARPAについて、SMBセグメントはQoQでフラットなのか。"
-    "MidセグメントがQoQでは5％と少し減速気味なのは何故か。"
+    "中堅企業及び中小企業のARPAと顧客数のYoY成長率、またはQoQの成長率を教えていただきたい。"
 
 st.title("💬 Chatbot")
 if "messages" not in st.session_state:
